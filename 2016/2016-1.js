@@ -1,5 +1,5 @@
 "use strict";
-var helper = require('./helpers.js');
+let helper = require('./helpers.js');
 
 helper.withInput(2016, 1, (err, input) => {
     console.time("withHash");
