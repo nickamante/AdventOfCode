@@ -10,5 +10,8 @@
   "license": "ISC",
   "devDependencies": {
     "request": "^2.79.0"
+  },
+  "dependencies": {
+    "js-md5": "^0.4.1"
   }
 }
