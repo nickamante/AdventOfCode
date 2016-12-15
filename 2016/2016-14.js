@@ -3,7 +3,7 @@ let helper = require('./helpers.js');
 let md5 = require('js-md5');
 
 // Part 1 & 2
-helper.xwithInput(2016, 14, (err, input) => {
+helper.withInput(2016, 14, (err, input) => {
     let salt = input.trim();
     let index = 0;
     let hashQueue = [];
